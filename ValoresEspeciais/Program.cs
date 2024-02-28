@@ -78,6 +78,15 @@ namespace ValoresEspeciais
             Console.WriteLine(y);
             Console.WriteLine(z);
             Console.WriteLine(a);
+
+
+            // Overflows em uints
+
+            uint b = ushort.MaxValue;
+            Console.WriteLine((ushort)(b + 1));
+
+            b = ushort.MinValue;
+            Console.WriteLine((ushort)(b - 1));
             
         }
     }

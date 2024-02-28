@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ValoresEspeciais
 {
@@ -53,6 +54,19 @@ namespace ValoresEspeciais
             decimal dc1 = decimal.MinValue;
             decimal dc2 = decimal.MaxValue;
             Console.WriteLine($"Tipo decimal, vlr max: {dc2} e vlr min: {dc1}");
+
+            // Valores especiais
+
+            //Valores NaN
+
+            double x = double.PositiveInfinity/double.PositiveInfinity;
+            double y = double.NegativeInfinity/double.NegativeInfinity;
+            float z = float.NaN;
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+
             
         }
     }

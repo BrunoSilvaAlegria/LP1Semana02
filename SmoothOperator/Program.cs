@@ -10,8 +10,9 @@ namespace SmoothOperator
             string str = Console.ReadLine();
 
             byte n = byte.Parse(str);
-            
-        
+
+            Console.WriteLine(n--);
+            Console.WriteLine(n++);
             
         }
     }

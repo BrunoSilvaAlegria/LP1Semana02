@@ -6,13 +6,14 @@ namespace SmoothOperator
     {
         static void Main(string[] args)
         {   
-            Console.Write("Insira um número ineiro não-negativo ->\t");
+            Console.Write("Insira um número inteiro não-negativo -> ");
             string str = Console.ReadLine();
 
             byte n = byte.Parse(str);
 
-            Console.WriteLine(n--);
-            Console.WriteLine(n++);
+            Console.WriteLine(--n);
+            Console.WriteLine(++n);
+            
             
         }
     }

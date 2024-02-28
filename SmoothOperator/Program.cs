@@ -13,6 +13,8 @@ namespace SmoothOperator
 
             Console.WriteLine(--n);
             Console.WriteLine(++n);
+            Console.WriteLine(n/2);
+            Console.WriteLine(n<<3);
             
             
         }

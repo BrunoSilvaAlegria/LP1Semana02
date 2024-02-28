@@ -87,6 +87,14 @@ namespace ValoresEspeciais
 
             b = ushort.MinValue;
             Console.WriteLine((ushort)(b - 1));
+
+            // Overflows em floats
+
+            float c = 3 * float.MaxValue;
+            Console.WriteLine(c);
+
+            c = float.MaxValue + 1;
+            Console.WriteLine(c);
             
         }
     }

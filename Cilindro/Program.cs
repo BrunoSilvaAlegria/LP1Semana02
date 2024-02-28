@@ -23,6 +23,8 @@ namespace Cilindro
 
             float area = 2 * x * r * (r + a);
 
+            Console.WriteLine($"O volume do cilindro é {volume} e a sua área é {area}");
+
 
         }
     }

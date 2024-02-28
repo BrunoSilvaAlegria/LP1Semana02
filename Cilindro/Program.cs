@@ -14,6 +14,15 @@ namespace Cilindro
             Console.Write("r: ");
             string str2 = Console.ReadLine();
 
+            float a = float.Parse(str1);
+            float r = float.Parse(str2);
+
+            float volume = MathF.PI * MathF.Pow(r,2) * a;
+
+            float x = Convert.ToSingle(Math.PI);
+
+            float area = 2 * x * r * (r + a);
+
 
         }
     }

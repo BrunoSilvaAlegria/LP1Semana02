@@ -57,7 +57,7 @@ namespace ValoresEspeciais
 
             // Valores especiais
 
-            //Valores NaN
+            // Valores NaN
 
             double x = double.PositiveInfinity/double.PositiveInfinity;
             double y = double.NegativeInfinity/double.NegativeInfinity;
@@ -67,6 +67,17 @@ namespace ValoresEspeciais
             Console.WriteLine(y);
             Console.WriteLine(z);
 
+            // Valores infinitos
+
+            x = double.PositiveInfinity;
+            y = double.NegativeInfinity;
+            z = float.PositiveInfinity;
+            float a = float.NegativeInfinity;
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
+            Console.WriteLine(a);
             
         }
     }

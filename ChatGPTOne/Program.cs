@@ -23,11 +23,14 @@ namespace ChatGPTOne
                     resposta= "It's 2";
                     break;
                 case "How are you doing?":
-                    resposta= "I'm doing great, thank you for asking!";
+                    resposta = "I'm doing great, thank you for asking!";
                     break;
                 case "Why do you exist?":
                     resposta= "Because somebody made me, duh...";
-                    break; 
+                    break;
+                case "EXIT":
+                    resposta = "Exiting...";
+                    break;
                 default:
                     resposta = "Sorry, I don't know the answer for that";
                     break;                   

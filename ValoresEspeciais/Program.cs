@@ -101,7 +101,12 @@ namespace ValoresEspeciais
 
             d = double.MaxValue + 1;
             Console.WriteLine(d);
-            
+
+            // Underflows em floats
+
+            fl1 = fl2 = 123456789.0f;
+            Console.WriteLine(fl1 == fl2 + 0.005005f);
+
         }
     }
 }

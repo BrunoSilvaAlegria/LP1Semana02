@@ -18,6 +18,15 @@ namespace ChatGPTOne
             {
                 case "What are you?":
                     resposta= "I'm a program made for answering your questions";
+                    break;
+                case "How much is 1 + 1?":
+                    resposta= "It's 2";
+                    break;
+                case "How are you doing?":
+                    resposta= "I'm doing great, thank you for asking!";
+                    break;
+                case "Why do you exist?":
+                    resposta= "Because somebody made me, duh...";
                     break; 
                 default:
                     resposta = "Sorry, I don't know the answer for that";
